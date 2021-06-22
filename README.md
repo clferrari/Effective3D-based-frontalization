@@ -1,4 +1,4 @@
-# Effective3D-based-frontalization
+# Effective 3D Based Frontalization
 
 Official MATLAB implementation of the paper "Effective 3D based frontalization for unconstrained face recognition", appeared at IEEE 23rd International Conference on Pattern Recognition (ICPR) 2016.
 
@@ -8,6 +8,8 @@ Official MATLAB implementation of the paper "Effective 3D based frontalization f
 ### Usage
 
 This demo code is self contained for standard MATLAB installation. To run the code on your data, you first need to detect the landmarks on the face images. The code provides a 3D landmark configuration in the 68 points I-Bug mark-up (https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/). A different configuration can be used for the 3D model, but you will need to manually label the corresponding 3D points on the average face model.
+
+Please note that, among the 68 landmarks, two redundant landmarks were removed in our implementation. Those are the #65 and #61 (1-based indexing).
 
 ### Citation
 
@@ -35,4 +37,7 @@ If you find the code useful, please cite the following papers:
 }
 ``` 
 
+### Contacts
+
+For troubleshooting, feel free to drop an email to ferrari.claudio88@gmail.com
 
