@@ -11,6 +11,11 @@ This demo code is self contained for standard MATLAB installation. To run the co
 
 Please note that, among the 68 landmarks, two redundant landmarks were removed in our implementation. Those are the #65 and #61 (1-based indexing).
 
+
+### Frontalized LFW Dataset
+
+We used the method to frontalize the face images of the Labeled Faces in the Wild (LFW) dataset. It can be dowloaded from the Media Integration and Communication Center (MICC) website [[here](https://www.micc.unifi.it/resources/datasets/frontalized-faces-in-the-wild/)]
+
 ### Citation
 
 If you find the code useful, please cite the following papers:
