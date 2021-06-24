@@ -46,3 +46,7 @@ If you find the code useful, please cite the following papers:
 
 For troubleshooting, feel free to drop an email to ferrari.claudio88@gmail.com
 
+
+### License
+
+Software is provided under the MIT license ( see LICENSE )
